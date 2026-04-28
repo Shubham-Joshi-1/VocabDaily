@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/vocab-daily-web/',
+  base: '/VocabDaily/',
   server: {
     port: 3000,
   },
