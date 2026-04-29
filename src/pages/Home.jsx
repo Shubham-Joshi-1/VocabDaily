@@ -55,7 +55,7 @@ export default function Home() {
             <span className={styles.emptyIcon}>📚</span>
             <p className={styles.emptyTitle}>No words today yet</p>
             <p className={styles.emptySubtitle}>
-              Words are added daily. Check back soon or make sure your Supabase is seeded.
+              Words are added daily. Check back soon....
             </p>
           </div>
         )}
