@@ -4,7 +4,7 @@ A daily English vocabulary app with Hindi meanings and a streak system, built wi
 
 ---
 
-## 📁 Project Structure
+<!-- ## 📁 Project Structure
 
 ```
 vocab-daily-web/
@@ -188,7 +188,7 @@ crontab -e
 0 0 * * * node /full/path/to/vocab-daily-web/cron-job.js >> /var/log/vocab-cron.log 2>&1
 ```
 
----
+--- -->
 
 ## 🔥 Streak System — How It Works
 
@@ -225,7 +225,7 @@ The app includes a `manifest.json` for PWA support:
 | `on conflict ... do nothing` | Safe upserts for history; prevents duplicate entries |
 
 ---
-
+<!-- 
 ## 🐛 Troubleshooting
 
 **No words showing?**
@@ -257,4 +257,4 @@ The app includes a `manifest.json` for PWA support:
 
 ---
 
-Made with ❤️ for daily learners.
+Made with ❤️ for daily learners. -->
