@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>VocabDaily</title>
+    <script>
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      var redirect = path.split('/').slice(0, 2).join('/') + '/?p=/' +
+        path.slice(1).split('/').slice(1).join('/').replace(/&/g, '~and~') +
+        (search ? '&q=' + search.slice(1).replace(/&/g, '~and~') : '') +
+        hash;
+      window.location.replace(redirect);
+    </script>
+  </head>
+  <body></body>
+</html>
